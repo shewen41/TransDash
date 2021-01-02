@@ -1,0 +1,65 @@
+@import './../../../sass/variables';
+
+.navbar{
+    background-color: white;
+    .search-icon{
+        color: #647787;
+    }
+    .navbar-brand {
+        margin-left: 42px;
+        margin-right:42px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: right;
+        color: #1875F0;
+    }
+    .form-control {
+        border: none;
+    }
+    .nav-item {
+        .nav-link {
+            font-family: 'Segoe UI';
+            font-size: 14px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            color: #647787;
+        }
+        .notification-icon {
+            color: #647787;
+        }         
+    }
+    .profile-link {
+        #UserDropdown {
+            .user-avatar {
+                float: left;
+                width: 28px;
+                height: 28px;
+                display: inline-block;
+                margin-right: 12px;
+                border-radius: 50%;
+            }
+            
+            .user-name {
+                font-family: Segoe UI;
+                font-size: 14px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #647787;
+            }
+            .user-greetings {
+                color: #9D9D9D;
+                font-size: 12px;
+            }
+            &::after {
+                float: right;
+                position: relative;
+                margin-top: -20px;
+            }
+        }
+    }
+}

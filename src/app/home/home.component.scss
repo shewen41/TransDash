@@ -1,0 +1,99 @@
+@import './../../sass/variables';
+
+.homepage-container {
+    background: #E5E5E5;
+    height: 1510px;
+
+    .main-content {
+        .card {
+            width: 253px;
+            height: 75px;
+            background: #FFFFFF;
+            border: 1px solid #EEF8FD;
+            box-sizing: border-box;
+            border-radius: 2px;
+            .card-title {
+                font-family: 'Segoe UI';
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                color: #787C90;
+            }
+            .card-value {
+                font-family: 'Segoe UI';
+                font-size: 18px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                color: #262626;
+            }
+        }
+        .chart-container {
+            width: 62px;
+            height: 37px;
+        }
+
+        .second-chart-container {
+            height: 332px;
+            background: #FFFFFF;
+            .second-chart-cnontainer {
+                height: 37px;
+            }
+        }
+
+        .summary {
+            .order-summary {
+                background-color: #FFFFFF;
+                height: 164px;
+                .title {
+                    font-family: 'Segoe UI';
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 16px; 
+                    color: #262626;
+                    margin-top: 21px;                
+                }
+                .summary-text {
+                    span {
+                        font-family: 'Segoe UI';
+                        font-size: 14px;
+                        line-height: 16px;       
+                        color: #262626;
+                    }   
+                }
+            }
+            .payment-summary {
+                background-color: #FFFFFF;
+                height: 164px;
+                .title {
+                    font-family: 'Segoe UI';
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 16px; 
+                    color: #262626;
+                    margin-top: 21px;                
+                }
+                .summary-text {
+                    span {
+                        font-family: 'Segoe UI';
+                        font-size: 14px;
+                        line-height: 16px;       
+                        color: #262626;
+                    }   
+                }
+            }
+        }
+        .table-title {
+            font-family: 'Segoe UI';
+            font-size: 36px;
+            line-height: 48px;
+            display: flex;
+            align-items: flex-end;
+            color: #262626;
+        }
+    }
+
+    
+
+}

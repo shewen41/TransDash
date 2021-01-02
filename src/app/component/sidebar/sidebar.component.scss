@@ -1,0 +1,71 @@
+@import './../../../sass/variables';
+
+.side-bar {
+    width: 260px;
+    height: 1510px;
+    background-color: #FFFFFF;
+
+    .menu {
+        margin: 2px 0 0 0;
+        padding: 0;
+
+        .invoice-button {
+            background-color: #27AE60;
+            width: 163px;
+            height: 33px;
+            border-radius: 30px;
+            margin-top: 30px;
+            margin-left: 31px;
+            color: #FFFFFF;
+            align-items: center;
+            font-size: 12px;
+            text-align: center;  
+        }
+        .menu-title {
+            color: #647787;
+            font-weight: 500;
+            font-size: 11px;
+            padding: 20px 14px 20px 32px;
+            display: block;
+            border-left: 4px solid #ffffff;
+            letter-spacing: -0.01em; 
+        }
+        a.menu-item {
+          color: #647787;
+          font-weight: 500;
+          font-family: 'Segoe UI';
+          font-size: 11px;
+          padding: 0 16px 20px 32px;
+          display: block;
+          border-left: 4px solid #ffffff;
+          letter-spacing: -0.01em;
+    
+          span {
+            margin-right: 14px;
+            display: inline-block;
+          }
+    
+          svg,
+          path,
+          g path {
+            fill: $primary-color;
+          }
+    
+          &.active,
+          &.router-link-active,
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: rgba(237, 244, 244, 0.51);
+            border-color: #1875F0;
+            color: rgba(6, 49, 50, 0.87);
+    
+            svg,
+            path,
+            g path {
+              fill: #1875F0;
+            }
+          }
+        }
+    }
+}
